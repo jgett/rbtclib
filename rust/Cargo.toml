@@ -1,0 +1,13 @@
+[package]
+name = "rbtclib"
+version = "0.0.1"
+authors = ["jgettbtc"]
+
+[lib]
+name = "rbtclib"
+crate-type = ["dylib"]
+
+[dependencies]
+rand = "*"
+bitcoin = { path = "G:\\dev\\github\\rust-bitcoin\\rust-bitcoin\\" }
+secp256k1 = "*"
